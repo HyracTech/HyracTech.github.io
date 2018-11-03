@@ -51,7 +51,7 @@ function readOer2goCatalog(){
 
   var resp = $.ajax({
     type: 'GET',
-    url: consoleJsonDir + 'oer2go_catalog.json',
+    url: '../oer2go_catalog-2018-6-15.json', 
     dataType: 'json'
   })
   .done(function( data ) {
