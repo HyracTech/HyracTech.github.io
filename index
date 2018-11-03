@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">	
+    <!-- OPTIONAL: description -->
+    <meta name="description" content="">
+    <!-- OPTIONAL: author -->
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="apple-touch-icon" href="icon.png" />
+
+		<!-- EDIT: title -->
+    <title>My Resume Website</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+
+    <!-- Link the main.css stylesheet -->
+    <link href="css/main.css" rel="stylesheet">
+    
+    <!-- OPTIONAL: Google Fonts (don't forget to edit main.css also) -->
+
+    <link href='//fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
+
+	<!-- Link the myjavascript.js -->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/myjavascript.js"></script>
+	
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.js"></script>
+      <script src="js/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+	
+
+	
+
+				<div class="tab-pane" id="instConZims"> <!-- Start instConZims Submenu Option Pane -->
+					<h2>Install Kiwix ZIM Files</h2>
+					<p>Kiwix has a large number of files containing compressed content which you can select by language.</p>
+					<div class="row">
+						<div class="col-sm-3"><button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#selectLangCodes">Select Languages</button></div>
+						<div class="col-sm-4"><span id="zimDiskSpace" >Disk Space: </span></div>
+						<div class="col-sm-2"><button id="INST-ZIMS" type="button" class="btn btn-lg btn-primary">Install Selected ZIMs</button></div>
+					</div>
+					<div id="ZimDownload" >  </div>
+				</div> <!--  End instConZims Submenu Option Pane -->
+
+
+
+	
+
+
+  </body>
+</html>
